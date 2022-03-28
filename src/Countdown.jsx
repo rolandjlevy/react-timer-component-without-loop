@@ -26,8 +26,6 @@ const Countdown = () => {
   const initialCountdown = countdownDate({ cutOffDate });
   const [timer, setTimer] = useState(initialCountdown);
   const [response, setResponse] = useState(null);
-
-  // const url = 'https://express-api-for-react-timer.rolandjlevy.repl.co/cutoff';
   
   const url = 'https://jsonplaceholder.typicode.com/albums/1';
   
